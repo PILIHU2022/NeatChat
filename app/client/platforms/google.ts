@@ -137,7 +137,7 @@ export class GeminiProApi implements LLMApi {
       contents: messages,
       tools: [{
           "googlesearch": {}
-      }]
+      }],
       generationConfig: {
         // stopSequences: [
         //   "Title"
